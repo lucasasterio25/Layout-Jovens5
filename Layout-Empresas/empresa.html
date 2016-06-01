@@ -1,0 +1,252 @@
+﻿<!doctype html>  
+<html>  
+<head>  
+<meta charset="utf-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>JOVENS DE SUCESSO</title>  
+  <link href="bootstrap3/css/bootstrap.min.css" rel="stylesheet" type="text/css">  
+  <link href="bootstrap3/css/bootstrap.css" rel="stylesheet">  
+  <link href="bootstrap3/css/bootstrap-responsive.css" rel="stylesheet">  
+  <link href="bootstrap3/css/bootstrap-responsive.min.css" rel="stylesheet">  
+  <link href="bootstrap3\css\estilo1.css" rel="stylesheet" type="text/css">
+</head>  
+  
+<body>  
+<!-- inicio nav  -->   
+<div id="nav">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+   <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+     <span class="sr-only">Toggle navigation</span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+    </button>
+    <a id="main-mobile" class="navbar-brand" href="#">JOVENS DE SUCESSO</a>
+   </div>
+   <div id="navbar" class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-left">
+     <li><a data-toggle="modal" data-target="#myModal" href="#"><strong>&nbsp;&nbsp;Agendar palestra</strong>|</a></li> 
+     <li><a href="calendar.html">&nbsp;&nbsp;Tarefas</a></li>
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+     <li><a class="nome-usuario" href="#">&nbsp;&nbsp;"Nome usuario logado"|</a></li>
+     <li><a href="login.html">&nbsp;&nbsp;Sair</a></li>
+    </ul>
+
+    <ul class="navbar-center nav navbar-nav">
+     <li><a class="navbar-brand" href="#">JOVENS DE SUCESSO</a></li>
+    </ul>
+
+   </div>
+  </div>
+ </nav>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Agendar palestra</h4>
+                      </div>
+                      <div class="modal-body">                
+<!-- form modal  --> 
+                    <form action="inicial.html">
+                          <form class="form-inline">
+
+                            <div class="form-group">
+                              <label >Data da palestra:</label>
+                              <input type="date" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                              <label >Hora da palestra:</label>
+                              <input type="time" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                              <label >Quem será o palestrante ?:</label>
+                              <input type="text" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                              <label >Responsavel:</label>
+                              <input type="text" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                              <label >Número de funcionários:</label>
+                              <input type="number" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                              <label >Número de vendas:</label>
+                              <input type="number" class="form-control">
+                            </div>
+                        <button type="submit" class="btn btn-default">Enviar</button>
+                    </form>
+<!-- form modal  --><!-- footer modal  -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<!-- fim nav  --><!-- inicio main  -->
+<div id="main-desktop">
+  <div class="container">
+
+<div class="col-md-12">
+    <h1>Empresas</h1>
+
+<div class="table-overflow3 table-responsive col-md-12" content="initial-scale=3.0">
+    <table class="tabelaEditavel table table-striped contato" cellspacing="0" cellpadding="0">
+      <thead>
+        <tr>
+          <th> Empresa</th>
+          <th> Pais</th>
+          <th> Estado</th>
+          <th> Endere&ccedil;o</th>
+          <th> Site</th>
+          <th> Número de funcionários</th>
+          <th> CNPJ</th>
+          <th> Ramo</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+          <td>Google</td>
+          <td>Brasil</td>
+          <td>São Paulo-1</td>
+          <td>XXI, 30</td>
+          <td>www.google.com</td>
+          <td>5187</td>
+          <td>164321864-1221</td>
+          <td>Informatica</td>
+        </tr>                        
+
+      </tbody>
+    </table>
+  </div>
+<p class="mobile">*Dois cliques sobre a célula que deseja editar e pressione Enter.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+<div id="main-mobile">
+<div class="container">
+
+<div class="row">
+        <aside role="complementary" class="col-md-12">
+           <h1>Empresas</h1>
+
+
+  <div class="table-overflow table-responsive col-md-12" content="initial-scale=3.0">
+    <table class="table table-striped" cellspacing="0" cellpadding="0">
+      
+         <div class="well col-md-6">
+                <p>Empresa: Google</p>
+                <p>Pais: Brasil</p>
+                <p>Estado: São Paulo</p>
+                <p>Endere&ccedil;o: XXI, 30</p>
+                <p>Site: www.google.com</p>
+                <p>Número de funcionários: 5187</p>
+                <p>CNPJ: 164321864-1221</p>
+                <p>Ramo: Informatica</p>
+                <button class="btn btn-small" data-toggle="modal" data-target="#myModal4"><i class="icon-plus-sign glyphicon glyphicon-plus"></i></button> 
+          </div>
+
+          <div class="well col-md-6">
+                <p>Empresa: Google</p>
+                <p>Pais: Brasil</p>
+                <p>Estado: São Paulo</p>
+                <p>Endere&ccedil;o: XXI, 30</p>
+                <p>Site: www.google.com</p>
+                <p>Número de funcionários: 5187</p>
+                <p>CNPJ: 164321864-1221</p>
+                <p>Ramo: Informatica</p>
+                <button class="btn btn-small" data-toggle="modal" data-target="#myModal4"><i class="icon-plus-sign glyphicon glyphicon-plus"></i></button>  
+          </div>
+
+      </table>
+    </div>
+  </aside>
+ </div>
+</div>
+</div>
+
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Adicionar empresa</h4>
+                      </div>
+
+                      <div class="modal-body">   
+
+          <form action="#">
+                        <form class="form-inline">
+
+                            <div class="form-group">
+                              <label >Cidade:</label>
+                              <input type="text" class="form-control" id="cidade">
+                            </div>
+
+                             <div class="form-group">
+                              <label >Estado:</label>
+                              <input type="text" class="form-control" id="estado">
+                            </div>
+
+                            <div class="form-group">
+                              <label >Endereço:</label>
+                              <input type="text" class="form-control" id="endereco">
+                            </div>
+
+                            <div class="form-group">
+                              <label >CEP:</label>
+                              <input type="text" class="form-control" id="cep">
+                            </div>
+
+                            <div class="form-group">
+                              <label >CNPJ:</label>
+                              <input type="text" class="form-control" id="site">
+                            </div>
+
+                            <div class="form-group">
+                              <label >Site:</label>
+                              <input type="text" class="form-control" id="cep">
+                            </div>
+
+                            <div class="form-group">
+                              <label >Ramo:</label>
+                              <input type="text" class="form-control" id="site">
+                            </div>
+
+                            <div class="form-group">
+                              <label >Número de funcionário:</label>
+                              <input type="text" class="form-control" id="funcionário" >
+                            </div>
+
+
+                        
+                        <button type="submit" class="btn btn-default">Enviar</button><hr>
+                    </form>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+</body> 
+  <script src="jquery/jquery-1.10.2.js" type="text/javascript"></script>
+  <script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+  <script src="bootstrap3/js/script.js" type="text/javascript"></script>
+</html>  
+
+

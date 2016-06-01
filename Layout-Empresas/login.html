@@ -1,0 +1,95 @@
+<!doctype html>  
+<html>  
+<head>  
+<meta charset="utf-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>JOVENS DE SUCESSO</title> 
+      <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />    
+      <link rel="stylesheet" href="bootstrap3/css/login.css">
+</head>
+<body>
+
+  <!-- Pagina da frente-->
+<div id="dialog" class="dialog dialog-effect-in">
+  <div class="dialog-front">
+    <div class="dialog-content">
+      <form id="login_form" class="dialog-form" action="" method="POST">
+        <fieldset>
+          <legend>Login</legend>
+
+          <div class="form-group">
+            <label for="user_username" class="control-label">Email:</label>
+            <input type="email" id="user_username" class="form-control" name="user_username" autofocus/>
+          </div>
+
+          <div class="form-group">
+            <label for="user_password" class="control-label">Senha:</label>
+            <input type="password" id="user_password" class="form-control" name="user_password"/>
+          </div>
+
+          <div class="text-center pad-top-20">
+            <p>Esqueceu do<br><a href="#" class="link"><strong>Email</strong></a> ou <a href="#" class="link"><strong>Senha</strong></a>?</p>
+          </div>
+
+          <div class="pad-top-20 pad-btm-20">
+            <input type="submit" class="btn btn-inverse btn-block btn-lg" value="Continue">
+          </div>
+
+          <div class="text-center">
+            <p>Criar<br> <a href="#" class="link user-actions"><strong>uma nova conta</strong></a>?</p>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+
+<!-- Pagina de tras-->
+  <div class="dialog-back">
+    <div class="dialog-content">
+      
+      <form id="register_form" class="dialog-form" action="" method="POST">
+        <fieldset>
+          <legend>Cadastro</legend>
+          <div class="form-group">
+            <label for="user_username" class="control-label">Email:</label>
+            <input type="email" id="user_username" class="form-control" name="user_username"/> 
+          </div>
+
+          <div class="form-group">
+            <label for="user_password" class="control-label">Senha:</label>
+            <input type="password" id="user_password" class="form-control" name="user_password"/>
+          </div>
+
+          <div class="form-group">
+            <label for="user_cnf_password" class="control-label">Confirmar Senha:</label>
+            <input type="password" id="user_cnf_password" class="form-control" name="user_cnf_password"/>
+          </div>
+
+          <div class="form-group pad-top-20 form-group-checkbox">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" id="user_terms" name="user_terms">
+                Eu concordo com os termos e condições
+              </label>
+            </div>
+          </div>
+
+          <div class="pad-btm-20">
+            <input type="submit" class="btn btn-inverse btn-block btn-lg" value="Continue"/>
+          </div>
+
+          <div class="text-center">
+            <p>Voltar para <a href="#" class="link user-actions"><strong>pagina de login</strong></a>?</p>
+          </div>
+
+        </fieldset>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+</body>
+    <script src='jquery/jquery.min.js'></script>
+    <script src="bootstrap3/js/login.js"></script>
+</html>
